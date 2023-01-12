@@ -13,6 +13,8 @@
 		10B168BD2940EDB3005AF079 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B168BC2940EDB3005AF079 /* Preview Assets.xcassets */; };
 		10B168C62940EEE9005AF079 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 10B168C52940EEE9005AF079 /* RxCocoa */; };
 		10B168C92940EF2D005AF079 /* RxGesture in Frameworks */ = {isa = PBXBuildFile; productRef = 10B168C82940EF2D005AF079 /* RxGesture */; };
+		10D4276D2970177900F49306 /* FolderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D4276C2970177900F49306 /* FolderCell.swift */; };
+		10D42771297017B100F49306 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D42770297017B100F49306 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		10B168B72940EDB2005AF079 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10B168B92940EDB3005AF079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10B168BC2940EDB3005AF079 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10D4276C2970177900F49306 /* FolderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderCell.swift; sourceTree = "<group>"; };
+		10D42770297017B100F49306 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		10B168B42940EDB2005AF079 /* umemo */ = {
 			isa = PBXGroup;
 			children = (
+				10D4276B2970176C00F49306 /* Component */,
 				10B168B52940EDB2005AF079 /* umemoApp.swift */,
 				10B168B72940EDB2005AF079 /* ContentView.swift */,
 				10B168B92940EDB3005AF079 /* Assets.xcassets */,
 				10B168BB2940EDB3005AF079 /* Preview Content */,
+				10D42770297017B100F49306 /* UIColor+Extension.swift */,
 			);
 			path = umemo;
 			sourceTree = "<group>";
@@ -77,6 +83,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10D4276B2970176C00F49306 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				10D4276C2970177900F49306 /* FolderCell.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +173,8 @@
 			files = (
 				10B168B82940EDB2005AF079 /* ContentView.swift in Sources */,
 				10B168B62940EDB2005AF079 /* umemoApp.swift in Sources */,
+				10D4276D2970177900F49306 /* FolderCell.swift in Sources */,
+				10D42771297017B100F49306 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.han.umemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clone.umemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -331,7 +347,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.han.umemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clone.umemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
