@@ -13,6 +13,7 @@
 		10B168BD2940EDB3005AF079 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B168BC2940EDB3005AF079 /* Preview Assets.xcassets */; };
 		10B168C62940EEE9005AF079 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 10B168C52940EEE9005AF079 /* RxCocoa */; };
 		10B168C92940EF2D005AF079 /* RxGesture in Frameworks */ = {isa = PBXBuildFile; productRef = 10B168C82940EF2D005AF079 /* RxGesture */; };
+		AFAAE79E299D4509002C50E0 /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAAE79D299D4509002C50E0 /* WriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		10B168B72940EDB2005AF079 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10B168B92940EDB3005AF079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10B168BC2940EDB3005AF079 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFAAE79D299D4509002C50E0 /* WriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		10B168B42940EDB2005AF079 /* umemo */ = {
 			isa = PBXGroup;
 			children = (
+				AFAAE79C299D44EF002C50E0 /* Write */,
 				10B168B52940EDB2005AF079 /* umemoApp.swift */,
 				10B168B72940EDB2005AF079 /* ContentView.swift */,
 				10B168B92940EDB3005AF079 /* Assets.xcassets */,
@@ -77,6 +80,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFAAE79C299D44EF002C50E0 /* Write */ = {
+			isa = PBXGroup;
+			children = (
+				AFAAE79D299D4509002C50E0 /* WriteView.swift */,
+			);
+			path = Write;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			files = (
 				10B168B82940EDB2005AF079 /* ContentView.swift in Sources */,
 				10B168B62940EDB2005AF079 /* umemoApp.swift in Sources */,
+				AFAAE79E299D4509002C50E0 /* WriteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
